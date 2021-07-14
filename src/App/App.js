@@ -31,9 +31,16 @@ class App extends Component {
         return (
             <div className="App">
                 <Header>
+                    <aside>
+                    </aside>
+                    <TOC>
+                    </TOC>
+                    <TOC>
+                    </TOC>
                     <TOC>
                     </TOC>
                 </Header>
+                <Footer></Footer>
             </div>
         );
     }

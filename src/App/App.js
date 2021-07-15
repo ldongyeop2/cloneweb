@@ -12,6 +12,22 @@ class Header extends Component {
     }
 }
 
+class Aside extends Component {
+    render() {
+        return (
+            <div>
+                <ul>
+                    <li>1. todolist</li>
+                    <li>2. calculator</li>
+                    <li>3. webpage</li>
+                    <li>4. redux</li>
+                    <li>5. scss</li>
+                </ul>
+            </div>
+        );
+    }
+}
+
 
 class TOC extends Component {
     render() {
@@ -31,8 +47,8 @@ class App extends Component {
         return (
             <div className="App">
                 <Header>
-                    <aside>
-                    </aside>
+                    <Aside>
+                    </Aside>
                     <TOC>
                     </TOC>
                     <TOC>

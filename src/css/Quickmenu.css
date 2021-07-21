@@ -1,0 +1,36 @@
+.quickMenu{
+  border:1px solid #878787;
+  width: 111px;
+  height: 500px;
+  position: fixed;
+  top:250px;
+  left:50%;
+  border-radius: 20px;
+  margin-left: 700px;
+  z-index: 2;
+  background-color: #fff;
+}
+.quickMenu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  text-align: center;
+  padding: 20px 10px;
+}
+.quickMenu ul li {
+  padding: 10px 0px;
+  font-size: 13px;
+  line-height: 15px;
+  border-bottom: 1px dashed #878787;
+}
+.quickMenu ul li :nth-child(4) {
+  border:none;
+}
+.quickMenu ul li img:nth-child(n) {
+  width:60%;
+  height: 60%;
+  margin-bottom: 10px;
+}
+.quickMenu a {
+  display: block;
+}
